@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Imprima", sans-serif;
+  background-color: #f5f6f8;
+}
+
+/* HEADER */
+
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  font-size: 20px;
+}
+
+.header1 img {
+  margin-top: 10px;;
+}
+
+.naveBar {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.naveBar a {
+  text-decoration: none;
+  color: #111;
+  font-family: "Red Rose", serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: 0.2s;
+}
+
+.naveBar a:hover {
+  color: #ff6600;
+}
+
+.divHeader1 a {
+  text-decoration: none;
+  background-color: #ff6600;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-family: "Red Rose", serif;
+  transition: 0.2s;
+}
+
+.divHeader1 a:hover {
+  background-color: #923a00;
+}
+
+/* INICIO */
+
+.inicio {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.inicio h2 {
+  font-size: 3rem;
+  font-family: "Red Rose", serif;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.inicio h3 {
+  font-family: "Red Rose", serif;
+  font-size: 1.6rem;
+  margin-top: 40px;
+  color: #111;
+}
+
+.inicio p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.inicio .highlight {
+  margin-top: 30px;
+  font-style: italic;
+  color: #777;
+}
+
+.inicio img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.inicio iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.inicio button {
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.inicio button:hover {
+  background-color: #923a00;
+}
+
+/* MAIS VENDIDOS */
+
+h1 {
+  text-align: center;
+  font-family: "Red Rose", serif;
+  margin-top: 80px;
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 320px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .nomeCarro {
+  color: rgb(132, 37, 0);
+  font-size: 1.8rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.card h2 {
+  font-family: "Red Rose", serif;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card h3 {
+  color: #ff6600;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.card button {
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card button:hover {
+  background-color: #923a00;
+}
+
+/* SUVS */
+
+.suv {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.suv h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.suv h2 {
+  font-family: "Red Rose", serif;
+  font-size: 1.6rem;
+  margin-top: 40px;
+  color: #111;
+}
+
+.suv p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.suv figure {
+  margin: 30px 0;
+}
+
+.suv img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.suv figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 8px;
+}
+
+
+/* MANUTENÇÃO */
+
+.manutencoes {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.manutencoes h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.manutencoes h2 {
+  font-family: "Red Rose", serif;
+  font-size: 1.6rem;
+  margin-top: 40px;
+  color: #111;
+}
+
+.manutencoes p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.manutencoes figure {
+  margin: 30px 0;
+}
+
+.manutencoes img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.manutencoes figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 8px;
+}
+
+/* SOBRE */
+
+.sobreTopGiro {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.sobreTopGiro h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.sobreTopGiro p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.sobreTopGiro figure {
+  margin: 30px 0;
+}
+
+.sobreTopGiro img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sobreTopGiro figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 8px;
+}
+
+/* Games */ 
+
+
+.games {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.games button {
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.games button:hover {
+  background-color: #923a00;
+}
+
+.games h2 {
+  font-size: 2rem;
+  font-family: "Red Rose", serif;
+  margin-bottom: 30px;
+  color: #cd4800;
+}
+
+.games h3 {
+  font-family: "Red Rose", serif;
+  font-size: 1.2rem;
+  margin-top: 40px;
+  color: #000000;
+}
+
+.games p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+
+.games img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* LOGIN */
+
+form a {
+  text-decoration: none;
+  background-color: #ff6600;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-family: "Red Rose", serif;
+  transition: 0.2s;
+}
+
+form a:hover {
+  background-color: #923a00;
+}
+
+
+.rodape{
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  background-color: #ff6600;
+  border-radius: 5px;
+  font-size: 1.2rem;
+   font-family: "Red Rose", serif;
+   
+
+}
+
+.rodape button{
+  font-size: 1.2rem;
+   background-color: #582300;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.rodape button:hover {
+  background-color: #000000;
+}
