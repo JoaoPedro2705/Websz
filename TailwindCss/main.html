@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prefeitura de Bom Caminho</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="imgBomCaminhoLogo.png" type="image/x-icon" />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+      };
+    </script>
+  </head>
+
+  <body class="bg-slate-50 font-sans dark:bg-slate-950 dark:text-white">
+    <header
+      class="flex flex-col md:flex-row items-center justify-between px-6 py-4 bg-white shadow-sm dark:bg-slate-950"
+    >
+      <button
+        id="toggleBtn"
+        class="px-6 py-3 bg-blue-500 text-white rounded-lg shadow hover:bg-slate-800 transition-colors duration-300 dark:bg-slate-800 dark:hover:bg-blue-500"
+      >
+        Alternar Tema
+      </button>
+
+      <img
+        src="imgBomCaminho.png"
+        alt="Logo"
+        class="h-24 md:h-32 w-auto mb-4 md:mb-0"
+      />
+
+      <div class="flex items-center gap-4">
+        <a href="instagram.html" target="_blank">
+          <img
+            src="imgInstaLogo.png"
+            alt="instagram"
+            class="h-8 md:h-10 w-auto cursor-pointer hover:scale-110 transition"
+          />
+        </a>
+        <a href="whats.html" target="_blank">
+          <img
+            src="imgWhatsLogo.png"
+            alt="whatsapp"
+            class="h-8 md:h-10 w-auto cursor-pointer hover:scale-110 transition"
+          />
+        </a>
+        <a
+          href="https://www.google.com/maps/search/prefeitura%20capao%20da%20canoa"
+          target="_blank"
+        >
+          <img
+            src="imgPing.png"
+            alt="maps"
+            class="h-6 md:h-8 w-auto cursor-pointer hover:scale-110 transition"
+          />
+        </a>
+        <a href="facebook.html" target="_blank">
+          <img
+            src="imgFaceLogo.png"
+            alt="facebook"
+            class="h-8 md:h-10 w-auto cursor-pointer hover:scale-110 transition"
+          />
+        </a>
+      </div>
+    </header>
+
+    <nav
+      class="sticky top-0 z-50 flex justify-center p-4 bg-gradient-to-r from-cyan-900 via-cyan-600 to-blue-700 shadow-md dark:from-sky-800 via-blue-200 to-blue-300"
+    >
+      <ul
+        class="flex flex-wrap justify-center gap-4 md:gap-10 text-white font-bold text-sm md:text-base"
+      >
+        <li>
+          <a href="#mun" class="hover:text-lime-300 transition">Município</a>
+        </li>
+        <li>
+          <a href="#noticias" class="hover:text-lime-300 transition"
+            >Notícias</a
+          >
+        </li>
+        <li>
+          <a href="#secretarias" class="hover:text-lime-300 transition"
+            >Secretarias</a
+          >
+        </li>
+        <li>
+          <a href="#servicos" class="hover:text-lime-300 transition"
+            >Serviços</a
+          >
+        </li>
+        <li>
+          <a href="#transparencia" class="hover:text-lime-300 transition"
+            >Transparência</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <section id="mun" class="mx-auto px-4 my-20 py-16">
+      <h1
+        class="text-cyan-900 text-center text-4xl md:text-5xl font-bold mb-10 dark:text-cyan-700"
+      >
+        Nosso Município
+      </h1>
+
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+        <div class="md:w-1/2 text-justify text-slate-700 leading-relaxed dark:text-gray-200">
+          <p>
+            Entre o azul do céu e o som constante das ondas, nasce Bom Caminho —
+            um município do litoral gaúcho onde cada rua guarda uma história e
+            cada amanhecer traz uma nova possibilidade. Dizem que o nome surgiu
+            dos antigos viajantes que, ao cruzarem a região, encontravam ali um
+            verdadeiro refúgio: um “bom caminho” para descansar, recomeçar e
+            seguir em frente.
+          </p>
+          <p class="mt-4">
+            Com o passar dos anos, o que era apenas um ponto de parada se
+            transformou em lar. Hoje, Bom Caminho é mais do que um destino — é
+            um lugar onde a simplicidade encanta, a natureza acolhe e a
+            comunidade faz cada visitante se sentir em casa. Seja bem-vindo a
+            Bom Caminho. Aqui, cada passo é um novo começo.
+          </p>
+        </div>
+
+        <div class="md:w-1/2 grid grid-cols-2 gap-4 ">
+          <a href="imgPraia.png">
+            <img
+              src="imgPraia.png"
+              alt="Praia"
+              class="w-full h-32 md:h-48 object-cover rounded shadow hover:opacity-90 transition cursor-pointer"
+          /></a>
+
+          <a href="imgPraca.png"
+            ><img
+              src="imgPraca.png"
+              alt="Praça"
+              class="w-full h-32 md:h-48 object-cover rounded shadow hover:opacity-90 transition cursor-pointer"
+            />
+          </a>
+          <a href="imgDesfile.png">
+            <img
+              src="imgDesfile.png"
+              alt="Desfile"
+              class="w-full h-32 md:h-48 object-cover rounded shadow hover:opacity-90 transition cursor-pointer"
+          /></a>
+
+          <a href="imgCidade.png"
+            ><img
+              src="imgCidade.png"
+              alt="Cidade"
+              class="w-full h-32 md:h-48 object-cover rounded shadow hover:opacity-90 transition cursor-pointer"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="noticias" class="mx-auto px-4 my-40 py-16">
+      <h2
+        class="text-cyan-900 text-center text-4xl md:text-5xl font-bold mb-12  dark:text-cyan-700"
+      >
+        Últimas Notícias
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <article
+          class="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-slate-100 dark:bg-slate-900 dark:border-black"
+        >
+          <img
+            src="imgVagas.webp"
+            alt="Notícia 1"
+            class="w-full h-56 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xs font-bold text-cyan-600 ">OPORTUNIDADE</h2>
+            <h3 class="text-xl font-bold text-slate-800 mt-2 mb-3 dark:text-cyan-500">
+              Prefeitura abre novas vagas de concurso público
+            </h3>
+            <p class="text-slate-600 text-justify text-sm mb-4 dark:text-gray-400">
+              Foram divulgados os editais para as novas vagas na área da
+              educação e saúde em Bom Caminho. As inscrições começam na proxima
+              segunda-feira, dia 12/05, indo até dia 20/05. O local da inscrição
+              sera na Rua Luis Bolsonaro n°123.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 dark:bg-slate-900 dark:border-black"
+        >
+          <img src="imgOrla.webp" alt="orla" class="w-full h-56 object-cover" />
+          <div class="p-6">
+            <h2 class="text-xs font-bold text-cyan-600">OBRAS</h2>
+            <h3 class="text-xl font-bold text-slate-800 mt-2 mb-3 dark:text-cyan-500">
+              Revitalização da Orla é concluída com sucesso
+            </h3>
+            <p class="text-slate-600 text-sm text-justify mb-4 dark:text-gray-400">
+              A nova praça central e o calçadão da orla já estão abertos para a
+              população. O evento de inauguração acontecera na sexta-feira, dia
+              23, contará com shows locais de Sabrina Carpenter, Bruno Mars,
+              Matuê e Douglas Ghostzin.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 dark:bg-slate-900 dark:border-black"
+        >
+          <img
+            src="imgVacinacao.jpeg"
+            alt="vacina"
+            class="w-full h-56 object-cover"
+          />
+          <div class="p-6">
+            <p class="text-xs font-bold text-cyan-600">SAÚDE</p>
+            <h3 class="text-xl font-bold text-slate-800 mt-2 mb-3 dark:text-cyan-500">
+              Campanha de vacinação contra a gripe neste sábado
+            </h3>
+            <p class="text-slate-600 text-justify text-sm mb-4 dark:text-gray-400">
+              Todas as Unidades básicas de saúde estarão abertas das 8h as 17h
+              para o dia de vacinação. Não esqueça a carteirinha. Para mais
+              informações entrar em contato por Telefone: 51 99999-1111.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="secretarias" class="bg-slate-100 my-25 py-12 dark:bg-slate-950">
+      <div class="mx-auto px-6">
+        <h2 class="text-cyan-900 text-center text-5xl font-bold mb-8  dark:text-cyan-700">
+          Secretarias
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div
+            class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-cyan-600 dark:bg-slate-800" 
+          >
+            <h3 class="font-bold text-slate-800 dark:text-white">Saúde</h3>
+            <p class="text-sm text-slate-600 dark:text-gray-400">Hospitais e UBS</p>
+          </div>
+
+          <div
+            class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-cyan-600  dark:bg-slate-800"
+          >
+            <h3 class="font-bold text-slate-800 dark:text-white">Educação</h3>
+            <p class="text-sm text-slate-600 dark:text-gray-400">Escolas e Creches</p>
+          </div>
+
+          <div
+            class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-cyan-600 dark:bg-slate-800"
+          >
+            <h3 class="font-bold text-slate-800 dark:text-white">Obras</h3>
+            <p class="text-sm text-slate-600 dark:text-gray-400">Infraestrutura e Limpeza</p>
+          </div>
+
+          <div
+            class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-cyan-600 dark:bg-slate-800"
+          >
+            <h3 class="font-bold text-slate-800  dark:text-white">Fazenda</h3>
+            <p class="text-sm text-slate-600 dark:text-gray-400">Impostos e Taxas</p>
+          </div>
+
+          <div
+            class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-cyan-600 dark:bg-slate-800"
+          >
+            <h3 class="font-bold text-slate-800 dark:text-white">Assistência Social</h3>
+            <p class="text-sm text-slate-600 dark:text-gray-400">CRAS e Projetos</p>
+          </div>
+
+          <div
+            class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-cyan-600 dark:bg-slate-800"
+          >
+            <h3 class="font-bold text-slate-800 dark:text-white">Turismo</h3>
+            <p class="text-sm text-slate-600 dark:text-gray-400">Eventos e Lazer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="mx-auto px-6 my-25 py-12">
+      <h2 class="text-cyan-900 text-center text-5xl font-bold mb-8  dark:text-cyan-700">
+        Servicos
+      </h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <h1
+          class="p-4 bg-white border border-slate-200 rounded-lg text-center hover:bg-cyan-50 transition shadow-sm dark:bg-slate-900 dark:border-black dark:"
+        >
+          <p class="text-2xl mb-1">📄</p>
+          <p class="text-sm font-bold text-slate-700 dark:text-sky-300">IPTU / Taxas</p>
+        </h1>
+        <h1
+          class="p-4 bg-white border border-slate-200 rounded-lg text-center hover:bg-cyan-50 transition shadow-sm dark:bg-slate-900 dark:border-black"
+        >
+          <p class="text-2xl mb-1">🧾</p>
+          <p class="text-sm font-bold text-slate-700 dark:text-sky-300">Nota Fiscal</p>
+        </h1>
+        <h1
+          class="p-4 bg-white border border-slate-200 rounded-lg text-center hover:bg-cyan-50 transition shadow-sm dark:bg-slate-900 dark:border-black"
+        >
+          <p class="text-2xl mb-1">🔍</p>
+          <p class="text-sm font-bold text-slate-700 dark:text-sky-300">Protocolo</p>
+        </h1>
+        <h1
+          class="p-4 bg-white border border-slate-200 rounded-lg text-center hover:bg-cyan-50 transition shadow-sm dark:bg-slate-900 dark:border-black"
+        >
+          <p class="text-2xl mb-1">📢</p>
+          <p class="text-sm font-bold text-slate-700 dark:text-sky-300">Ouvidoria</p>
+        </h1>
+      </div>
+    </section>
+
+    <section id="transparencia" class="bg-cyan-900 py-12 text-white dark:bg-cyan-950">
+      <div class="mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-4">Transparência</h2>
+        <p class="text-cyan-100 text-sm mb-6">
+          Acesse contas públicas e licitações.
+        </p>
+
+        <div class="flex flex-col md:flex-row justify-center gap-3">
+          <h1
+            class="bg-lime-400 text-cyan-950 font-bold py-3 px-6 rounded-md hover:bg-green-800 cursor-pointer transition"
+          >
+            Portal da Transparência
+          </h1>
+          <h1
+            class="border border-white py-3 px-6 rounded-md hover:bg-white/10 transition cursor-pointer"
+          >
+            Licitações
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-6 text-center text-sm">
+      <p>
+        2026 Prefeitura Municipal de Bom Caminho - Todos os direitos reservados.
+      </p>
+    </footer>
+
+    <script src="scriptDarkMode.js"></script>
+  </body>
+</html>
